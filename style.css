@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+    background: red;
+}
+.form-login{
+
+display: flex;
+
+flex-direction: column;
+
+width: 1000px;
+
+margin: auto;
+}
+.form-login input{
+    margin-top: 20px;
+    padding: 10px;
+}
+.menu a:nth-child(1){
+    margin-left: 0;
+}
+.submit-button {
+    text-align: center;
+}
+.information-form {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fieldgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label,select,
+input {
+    padding: 5px 10px;
+    font-size: 20px;
+}
