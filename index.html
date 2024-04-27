@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
+
+        <!-- menu-start -->
+
         <div class="menu">
             <span>
                 <a href="">home</a>
@@ -17,6 +21,77 @@
             </span>
             <a href="">login</a>
         </div>
+
+        <!-- menu-end -->
+
+
+
+        <div class="slider">
+            <h3>Slider 1</h3>
+            
+            <div class="flexslider fs1">
+                <ul class="slides">
+                <li>
+                    <img src="images/images (1).jpeg" />
+                </li>
+                <li>
+                    <img src="images/images.jpeg" />
+                </li>
+                <li>
+                    <img src="images/istockphoto-1198272365-612x612.jpg" />
+                </li>
+                <li>
+                    <img src="images/sunset-1373171_1280.jpg" />
+                </li>
+                </ul>
+            </div>
+
+            <h3>Slider 2</h3>
+            
+            <div class="flexslider fs2">
+                <ul class="slides">
+                <li>
+                    <img src="images/images (1).jpeg" />
+                </li>
+                <li>
+                    <img src="images/images.jpeg" />
+                </li>
+                <li>
+                    <img src="images/istockphoto-1198272365-612x612.jpg" />
+                </li>
+                <li>
+                    <img src="images/sunset-1373171_1280.jpg" />
+                </li>
+                </ul>
+            </div>
+
+            <h3>slider 3</h3>
+            <div class="flexslider" id="f1" style="direction:rtl">
+                <ul class="slides">
+                  <li>
+                    <img src="images/images (1).jpeg" />
+                    <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+                  </li>
+                  <li>
+                    <img src="images/images.jpeg" />
+                    <p class="flex-caption">Adventurer Lemon</p>
+                  </li>
+                  <li>
+                    <img src="images/istockphoto-1198272365-612x612.jpg" />
+                    <p class="flex-caption">Adventurer Donut</p>
+                  </li>
+                  <li>
+                    <img src="images/sunset-1373171_1280.jpg" />
+                    <p class="flex-caption">Adventurer Caramel</p>
+                  </li>
+                </ul>
+              </div>
+              
+
+
+        </div>
+
+        <!-- form-start -->
 
         <form class="form-login">
             <h3>Please login</h3>
@@ -105,8 +180,15 @@
             
             <input type="submit" value="submit">
         </div>
+
+        <!-- form-end -->
        
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/index.js"></script>
     
 </body>
 </html>
